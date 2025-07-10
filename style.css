@@ -85,3 +85,43 @@ footer {
   color: #fff;
   border: 1px solid #555;
 }
+
+#kitap-galerisi {
+  padding: 2rem;
+  background-color: #fff7f8;
+  border-radius: 15px;
+  margin-top: 2rem;
+}
+
+.kitap-kartlari {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.kitap {
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  width: 160px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.kitap img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.kitap h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.kitap p {
+  font-size: 0.85rem;
+  color: #555;
+  }
