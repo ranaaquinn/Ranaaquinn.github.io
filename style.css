@@ -249,3 +249,41 @@ body.gece-temasi button#temaDegistir {
 .reklam-link:hover {
   background-color: #e14c70;
 }
+.kitap-onerisi {
+  padding: 20px;
+  background-color: #fff9f9;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.kitap-kart {
+  border: 1px solid #ffcce0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background: #ffeef3;
+  text-align: center;
+}
+
+.kitap-kart img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.kitap-kart h3 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.kitap-kart p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.kitap-kart span {
+  font-weight: bold;
+  color: #e91e63;
+}
