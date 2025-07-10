@@ -218,3 +218,34 @@ body.gece-temasi button#temaDegistir {
     buton.textContent = document.body.classList.contains("gece-temasi") ? "🌙 Gündüz Modu" : "🌞 Gece Modu";
   }
 </script>
+#reklam {
+  padding: 2rem;
+  background-color: #fff0f5;
+  border-radius: 16px;
+  margin-top: 2rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.reklam-kutusu {
+  padding: 1rem;
+  background-color: #ffe4ec;
+  border-radius: 12px;
+  border: 2px dashed #ff99b0;
+  margin-top: 1rem;
+}
+
+.reklam-link {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #ff5c83;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.reklam-link:hover {
+  background-color: #e14c70;
+}
