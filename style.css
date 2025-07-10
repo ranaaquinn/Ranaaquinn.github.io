@@ -211,3 +211,10 @@ body.gece-temasi button#temaDegistir {
   background-color: #444;
   color: #fff;
 }
+<script>
+  function temayiDegistir() {
+    document.body.classList.toggle("gece-temasi");
+    const buton = document.getElementById("temaDegistir");
+    buton.textContent = document.body.classList.contains("gece-temasi") ? "🌙 Gündüz Modu" : "🌞 Gece Modu";
+  }
+</script>
