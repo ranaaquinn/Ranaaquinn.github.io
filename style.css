@@ -184,3 +184,30 @@ footer {
   max-width: 400px;
   width: 100%;
   }
+body {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+button#temaDegistir {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffccdd;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+body.gece-temasi {
+  background-color: #1c1c1c;
+  color: #f1f1f1;
+}
+
+body.gece-temasi button#temaDegistir {
+  background-color: #444;
+  color: #fff;
+}
